@@ -1,0 +1,10 @@
+POST http://localhost:8989/loan/request
+Content-Type: application/json
+
+{
+  "clientId": 1,
+  "loanAmount": 10000,
+  "callbackUrl": "localhost:8082/callbackUrl"
+}
+
+###
